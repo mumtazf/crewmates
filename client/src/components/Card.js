@@ -13,7 +13,7 @@ const Card = (props) =>  {
           <Link to={'/edit/'+ props.id}><img className="moreButton" alt="edit button" src = {more}/></Link>
           <h2 className="name">{props.name}</h2>
           <h3 className="speed">{"Speed: " + props.speed}</h3>
-          <p className="candy">{"Favorite candy:" + props.candy}</p>
+          <p className="candy">{"Favorite candy: " + props.candy}</p>
 
       </div>
   );

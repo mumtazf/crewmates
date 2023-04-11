@@ -8,15 +8,16 @@
     margin-bottom: 25px;
     width: 400px;
     text-align: center;
+    margin-left: 30%;
 }
 
-.title {
-    color:white;
+.name {
+    color:rgb(61, 223, 52);
     padding-left:30px;
     font-size: 24px;
 }
 
-.author {
+.speed {
     color:white;
     margin-bottom: 20px;
     font-size: 20px;
