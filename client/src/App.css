@@ -58,11 +58,12 @@ button:hover {
   bottom: 0;
   background-color: aqua;
   padding-top: 15px;
-  padding-right: 10px;
+  padding-right: 15px;
   padding-left: 10px;
   padding-bottom:10px;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
