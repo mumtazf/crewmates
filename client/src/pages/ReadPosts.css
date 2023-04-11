@@ -3,5 +3,7 @@
     grid-auto-flow: row;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    margin-left: auto;
+    flex-grow: 1;
 }
 

@@ -43,7 +43,26 @@ button {
   color:white;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-bottom: 3px;
 }
 button:hover {
   border-color: #646cff;
+}
+
+.sidenav{
+  height: 100%;
+  width: calc(25% - 20px); /* adjust width to account for padding */
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  background-color: aqua;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom:10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
