@@ -5,11 +5,11 @@ import ReadPosts from './pages/ReadPosts'
 import CreateCrewmate from './pages/CreateCrewmate'
 import EditCrewmate from './pages/EditCrewmate'
 import Home from './components/Home'
+import SideNav from './components/SideNav';
 
 import {useState, useEffect} from 'react';
 import {supabase} from '../src/client'
 
-import SideNav from './components/SideNav';
 
 const App = () => {
   

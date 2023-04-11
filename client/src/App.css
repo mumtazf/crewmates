@@ -49,7 +49,7 @@ button:hover {
   border-color: #646cff;
 }
 
-.sidenav{
+.sidenavi{
   height: 100%;
   width: calc(25% - 20px); /* adjust width to account for padding */
   position: fixed;
